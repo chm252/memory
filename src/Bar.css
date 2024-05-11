@@ -1,0 +1,8 @@
+.bar {
+    color: white;
+    width: 80%; /* Example: Make the bar 80% of the width */
+    max-width: 60%; /* Example: Set a maximum width for the bar */
+    height: 50px; /* Example: Set the height of the bar */
+    border: 1px solid #ccc; /* Example: Add border */
+    font-size:xx-large;
+}

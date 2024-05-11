@@ -1,0 +1,24 @@
+.button {
+    background-color: maroon;
+    width: fit-content;
+    border-radius: 20%;
+    cursor: pointer;
+    color: white;
+    font-size: xx-large;
+    font-weight: 1000;
+    margin-left: 2%;
+    flex: 0 0 5%;
+}
+.restartButton {
+    background-color: green;
+    width: fit-content;
+    border-radius: 10%;
+    cursor: pointer;
+    color: white;
+    font-size: xx-large;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+*{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    padding: 5%
+}
+
+.second_layer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: maroon;
+    width: fit-content;
+    border-radius: 20%;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    font-weight: 1000;
+    margin-left: 2%;
+    flex: 0 0 5%;
+}
