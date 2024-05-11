@@ -1,0 +1,31 @@
+.DS {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Windows_Settings_icon.svg/1092px-Windows_Settings_icon.svg.png');
+    background-color: transparent;
+    background-size: 90%;
+    background-position: center;
+    border-color: grey;
+    width:max-content;
+    height:max-content; 
+    border-radius: 50%; 
+    border-color: white;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    font-weight: 1000;
+    padding: 1%;
+    margin-left: 90%;
+    margin-top: 2%;
+    position: fixed;
+}
+
+.level {
+    color:white;
+    font-size: large;
+    border-radius: 2%;
+    border-color: white;
+    padding:1%;
+    margin: 1%;
+}
+.level:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
