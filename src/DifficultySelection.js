@@ -9,8 +9,9 @@ function DifficultySelection(props) {
         <div style = {{display:'flex'}}>
             {showDifficulty 
                 && 
-                <>
-            {levels.map((level, index) => (
+                <div style={{backgroundColor:"darkSlateGrey", width:"100%"}}>
+            {
+            levels.map((level, index) => (
                 <button style={level==selected ? {borderColor :'green', borderWidth:'thick'} : {borderColor :'white'}} key={index} className='level' 
                     onClick={() => {
                         if (level != selected) {
@@ -20,8 +21,9 @@ function DifficultySelection(props) {
                 }}>
                     {level}
                 </button>
-            ))}
-                </>}
+            ))
+            }
+                </div>}
             <button className="DS" onClick={()=>setShowDifficulty(!showDifficulty)}/>
         </div>
     )

@@ -2,7 +2,7 @@ import Bar from './Bar.js'
 import Question from './Question.js'
 import Results from './Results.js'
 import './Display.css';
-import { useEffect, useState } from 'react';
+import {useState } from 'react';
 
 function Display (props) {
     const string = props.string;
